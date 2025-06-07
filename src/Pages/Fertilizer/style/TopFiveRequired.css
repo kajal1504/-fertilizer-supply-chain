@@ -1,0 +1,39 @@
+/* TopFiveRequired.css */
+
+
+.top-five-required {
+  background-color: #f9fafb;
+  padding: 20px;
+  margin: 20px auto;
+  /* max-width: 600px; */
+  width: 80vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-five-required h2 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-five-required ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-five-required li {
+  background-color: #e0e7ff;
+  margin: 10px 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1f2937;
+  transition: transform 0.2s ease;
+}
+
+.top-five-required li:hover {
+  transform: scale(1.02);
+  background-color: #c7d2fe;
+}
