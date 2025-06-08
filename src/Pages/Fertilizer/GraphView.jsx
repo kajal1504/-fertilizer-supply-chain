@@ -1,7 +1,8 @@
 import { data } from "../../result"
-import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid} from 'recharts';
 import "./style/GraphView.css"; 
 import Navbar from "./Navbar";
+import Top5RequirementChart from "./Top5BarChart";
 
 function GraphView() {
   const graphData = data
@@ -27,6 +28,9 @@ function GraphView() {
         <Line type="monotone" dataKey="requirement" stroke="#ff7300" />
         <Line type="monotone" dataKey="availability" stroke="#387908" />
       </LineChart>
+    </div>
+    <div style={{ marginTop: "40px", padding: "20px" }}>
+      <Top5RequirementChart/>
     </div>
     </div>
     </>
